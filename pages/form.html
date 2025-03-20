@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+
+    <Link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<a href="../index.html">back to home"</a>
+    <h1>
+        Заповніть форму
+    </h1>
+
+<div id="form">
+    <h2>Форма</h2>
+    <p>Заповніть нашу форму для отримання консультації.</p>
+</div>
+
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Особисті дані</legend>
+
+            <label for="name">Ваше ім'я:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Ваш e-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <p>Стать:</p>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Чоловік</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Жінка</label>
+        </fieldset>
+
+        <button type="submit">Надіслати</button>
+    </form>
+
+        <fieldset>
+            <legend>Підписка на новини</legend>
+            <label for="subscribe">Підписатися на новини:</label>
+            <input type="checkbox" id="subscribe" name="subscribe">
+        </fieldset>
+
+        <label for="message">Ваше повідомлення:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+
+        <button type="submit">Відправити</button>
+
+<div id="navigation">
+<nav>
+    <ul>
+        <li><a href="../../index.html">Головна</a></li>
+        <li><a href="about.html">Про нас</a></li>
+        <li><a href="articles.html">Статті</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+        <li><a href="gallery.html">Галерея</a></li>
+        <li><a href="form.html">Форма</a></li>
+    </ul>
+</nav>
+</div>
